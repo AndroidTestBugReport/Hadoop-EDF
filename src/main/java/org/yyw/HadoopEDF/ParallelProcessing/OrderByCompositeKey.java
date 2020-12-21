@@ -1,7 +1,7 @@
 package org.yyw.HadoopEDF.ParallelProcessing;
 
 import java.io.BufferedReader;
-import java.io.File;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
@@ -9,11 +9,8 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.*;
 
-import org.apache.hadoop.fs.FSDataOutputStream;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.conf.*;
-import org.apache.hadoop.filecache.DistributedCache;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.*;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
